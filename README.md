@@ -23,23 +23,27 @@ Welcome to my very first web development project! Built entirely from scratch us
 ## 📸 Project Previews
 
 ### 🏠 Home Page
-<img src="home2.PNG" alt="Home Page" width="850" style="border-radius: 16px; box-shadow: 0 15px 35px rgba(46, 204, 113, 0.4); margin-bottom: 30px;" />
+<img src="home2.png" alt="Home Page" width="850" />
 
 ### 🛍️ Products Page
-<img src="products2.PNG" alt="Products Page" width="850" style="border-radius: 16px; box-shadow: 0 15px 35px rgba(46, 204, 113, 0.4); margin-bottom: 30px;" />
+<img src="products2.png" alt="Products Page" width="850" />
 
 ### 🎬 About Page
-<img src="about2.PNG" alt="About Page" width="850" style="border-radius: 16px; box-shadow: 0 15px 35px rgba(46, 204, 113, 0.4); margin-bottom: 30px;" />
+<img src="about2.png" alt="About Page" width="850" />
 
 ### 🔐 Login Page
-<img src="login2.PNG" alt="Login Page" width="850" style="border-radius: 16px; box-shadow: 0 15px 35px rgba(46, 204, 113, 0.4); margin-bottom: 30px;" />
+<img src="login2.png" alt="Login Page" width="850" />
 
 ## ✨ Key Highlights
 
-<div align="left" style="display: inline-block; padding: 20px;">
+<div align="left">
+
 <p>✔️ <b>100% Custom Design & Layout:</b> Designed with full creative freedom, featuring an immersive forest-green aesthetic, dark glassmorphism cards, and cozy literature-themed visuals.</p>
+
 <p>✔️ <b>Fully Responsive:</b> Seamlessly adapts to all screen sizes—from mobile devices to ultra-wide monitors.</p>
+
 <p>✔️ <b>Pure CSS Effects:</b> Built with modern CSS techniques including flexbox, clamp() typography, CSS gradients, and interactive hover animations.</p>
+
 </div>
 
 <hr>
