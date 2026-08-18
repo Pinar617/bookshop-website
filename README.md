@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/book-animation.svg" width="100%" alt="Animated Book"/>
+<img src="./book-animation.svg" width="100%" alt="Animated Book"/>
 
 <img src="https://readme-typing-svg.demolab.com?font=Playfair+Display&weight=600&size=26&duration=3200&pause=1100&color=D4AF37&center=true&vCenter=true&width=750&lines=Welcome+to+Reader's+Heaven+%F0%9F%93%9A;A+Book+Shop+Built+with+Pure+HTML+%26+CSS;My+First+Frontend+Web+Development+Project;Where+Books+Meet+Beautiful+Design+%F0%9F%8C%BF" alt="Typing SVG" />
 
