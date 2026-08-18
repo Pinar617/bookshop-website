@@ -1,132 +1,154 @@
-<div align="center">📖 Book Shop — Reader's Heaven 📚
+<div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Nanum+Gothic&weight=700&size=24&duration=3000&pause=1000&color=2ECC71&center=true&vCenter=true&width=700&lines=Welcome+to+Reader's+Heaven+%F0%9F%93%9A;A+Book+Shop+Built+with+Pure+HTML+%26+CSS;My+First+Frontend+Web+Development+Project;Where+Books+Meet+Beautiful+Design+%F0%9F%8C%BF" alt="Typing SVG" /><br><p>
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-  <img src="https://img.shields.io/badge/Responsive-2ECC71?style=for-the-badge&logo=responsive&logoColor=white" />
-  <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" />
-</p><p>
-  <b>📚 A cozy, modern and responsive e-commerce experience for book lovers.</b>
-</p></div>---
+<img src="./assets/book-animation.svg" width="100%" alt="Animated Book"/>
 
-🌿 About The Project
+<img src="https://readme-typing-svg.demolab.com?font=Playfair+Display&weight=600&size=26&duration=3200&pause=1100&color=D4AF37&center=true&vCenter=true&width=750&lines=Welcome+to+Reader's+Heaven+%F0%9F%93%9A;A+Book+Shop+Built+with+Pure+HTML+%26+CSS;My+First+Frontend+Web+Development+Project;Where+Books+Meet+Beautiful+Design+%F0%9F%8C%BF" alt="Typing SVG" />
 
-Book Shop — Reader's Heaven is my first Front-End Web Development project, created completely from scratch using HTML5 and CSS3.
+<br>
 
-The goal was to design a modern online bookstore that feels warm, elegant and immersive while giving users a smooth browsing experience.
+![HTML5](https://img.shields.io/badge/HTML5-0C2B1D?style=for-the-badge&logo=html5&logoColor=D4AF37)
+![CSS3](https://img.shields.io/badge/CSS3-0C2B1D?style=for-the-badge&logo=css3&logoColor=D4AF37)
+![Responsive](https://img.shields.io/badge/Responsive-0C2B1D?style=for-the-badge&logo=responsive&logoColor=D4AF37)
+![VS Code](https://img.shields.io/badge/VS%20Code-0C2B1D?style=for-the-badge&logo=visual-studio-code&logoColor=D4AF37)
 
-The visual identity is inspired by forest green tones, dark glassmorphism elements, soft lighting and the atmosphere of a cozy library. 🌲📚
+<br>
 
-«✨ Built with passion, curiosity and a lot of "CSS".»
+**📚 A cozy, modern e-commerce experience for book lovers — where every page turns like a story.**
 
----
+</div>
 
-✨ Features
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=20,12&height=3&section=header" width="100%" />
 
-- 🏠 Modern Home Page
-- 📚 Books & Products Section
-- 🎬 About Page
-- 🔐 Login Page
-- 📱 Fully Responsive Design
-- 🌿 Forest-Inspired Color Palette
-- 🪟 Glassmorphism UI Elements
-- ✨ Smooth Hover Animations
-- 🎨 Custom CSS Effects
-- 📐 Responsive Typography with "clamp()"
-- 🧩 Flexbox-Based Layout
-- 🌈 CSS Gradients & Shadows
-- 💻 Built Without Frameworks
+<h3 align="center">🌿 &nbsp; A B O U T &nbsp; T H E &nbsp; P R O J E C T &nbsp; 🌿</h3>
 
----
+<div align="center">
+<table><tr><td>
+<br>
 
-🛠️ Tech Stack
+**Book Shop — Reader's Heaven** is my first Front-End Web Development project, built entirely from scratch with **HTML5** and **CSS3**.
 
-Technology| Usage
-🟧 HTML5| Semantic page structure
-🟦 CSS3| Styling, layout & animations
-📐 Flexbox| Responsive layouts
-🎨 CSS Gradients| Visual effects
-✨ CSS Transitions| Smooth interactions
-🖥️ VS Code| Development environment
+The goal was to design a modern online bookstore that feels warm, elegant, and immersive — like stepping into a quiet library at night.
 
----
+The visual identity draws from **deep forest-green tones**, **dark glassmorphism**, soft golden lighting, and the atmosphere of a cozy reading nook. 🌲📚
 
-🎨 Design
+<br>
+<i>« ✨ Built with passion, curiosity, and a lot of "CSS". »</i>
+<br><br>
+</td></tr></table>
+</div>
 
-The website follows a dark forest-inspired aesthetic designed to create a calm and literary atmosphere.
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=20,12&height=3&section=header" width="100%" />
 
-🎨 Design Principles
+<h3 align="center">✨ &nbsp; F E A T U R E S &nbsp; ✨</h3>
 
-- 🌲 Deep forest-green backgrounds
-- 🌑 Dark UI components
-- 🪟 Glassmorphism cards
-- 💡 Soft lighting
-- 📖 Literature-inspired visuals
-- ✨ Minimal but interactive animations
-- 📱 Mobile-first responsive thinking
+<div align="center">
 
----
+| | | |
+|---|---|---|
+| 🏠 Modern Home Page | 📚 Books & Products Section | 🎬 About Page |
+| 🔐 Login Page | 📱 Fully Responsive Design | 🌿 Forest-Inspired Palette |
+| 🪟 Glassmorphism UI | ✨ Smooth Hover Animations | 🎨 Custom CSS Effects |
+| 📐 Responsive Typography (`clamp()`) | 🧩 Flexbox Layout | 🌈 Gradients & Shadows |
 
-📸 Project Preview
+</div>
 
-🏠 Home Page
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=20,12&height=3&section=header" width="100%" />
 
-<img src="home2.png" alt="Book Shop Home Page" width="850">---
+<h3 align="center">🛠️ &nbsp; T E C H &nbsp; S T A C K &nbsp; 🛠️</h3>
 
-🛍️ Products Page
+<div align="center">
 
-<img src="products2.png" alt="Book Shop Products Page" width="850">---
+| Technology | Usage |
+|:---:|:---|
+| 🟧 **HTML5** | Semantic page structure |
+| 🟦 **CSS3** | Styling, layout & animations |
+| 📐 **Flexbox** | Responsive layouts |
+| 🎨 **CSS Gradients** | Visual effects |
+| ✨ **CSS Transitions** | Smooth interactions |
+| 🖥️ **VS Code** | Development environment |
 
-🎬 About Page
+</div>
 
-<img src="about2.png" alt="Book Shop About Page" width="850">---
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=20,12&height=3&section=header" width="100%" />
 
-🔐 Login Page
+<h3 align="center">🎨 &nbsp; D E S I G N &nbsp; 🎨</h3>
 
-<img src="login2.png" alt="Book Shop Login Page" width="850">---
+<div align="center">
 
-📱 Responsive Design
+The website follows a **dark forest-library aesthetic** designed to create a calm, literary atmosphere.
 
-The website was designed to provide a consistent experience across different screen sizes.
+🌲 Deep forest-green backgrounds &nbsp;✦&nbsp; 🌑 Dark UI components &nbsp;✦&nbsp; 🪟 Glassmorphism cards
+💡 Soft golden lighting &nbsp;✦&nbsp; 📖 Literature-inspired visuals &nbsp;✦&nbsp; ✨ Minimal, interactive animations &nbsp;✦&nbsp; 📱 Mobile-first thinking
 
-💻 Desktop
+</div>
 
-Beautiful layouts with spacious content and immersive visuals.
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=20,12&height=3&section=header" width="100%" />
 
-📱 Tablet
+<h3 align="center">📸 &nbsp; P R O J E C T &nbsp; P R E V I E W &nbsp; 📸</h3>
 
-Flexible layouts that adapt to medium-sized screens.
+<div align="center">
 
-📲 Mobile
+**🏠 Home Page**
+<br>
+<img src="home2.png" alt="Book Shop Home Page" width="850">
 
-Compact navigation, responsive typography and reorganized content.
+<br><br>
 
----
+**🛍️ Products Page**
+<br>
+<img src="products2.png" alt="Book Shop Products Page" width="850">
 
-💡 What I Learned
+<br><br>
+
+**🎬 About Page**
+<br>
+<img src="about2.png" alt="Book Shop About Page" width="850">
+
+<br><br>
+
+**🔐 Login Page**
+<br>
+<img src="login2.png" alt="Book Shop Login Page" width="850">
+
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=20,12&height=3&section=header" width="100%" />
+
+<h3 align="center">📱 &nbsp; R E S P O N S I V E &nbsp; D E S I G N &nbsp; 📱</h3>
+
+<div align="center">
+
+The website was designed to provide a consistent experience across every screen size.
+
+| 💻 Desktop | 📱 Tablet | 📲 Mobile |
+|:---:|:---:|:---:|
+| Spacious layouts with immersive visuals | Flexible layouts for medium screens | Compact nav, responsive type, reorganized content |
+
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=20,12&height=3&section=header" width="100%" />
+
+<h3 align="center">💡 &nbsp; W H A T &nbsp; I &nbsp; L E A R N E D &nbsp; 💡</h3>
+
+<div align="center">
+<table><tr><td>
 
 This project helped me strengthen my understanding of:
 
-- HTML5 semantic structure
-- CSS positioning
-- Flexbox
-- Responsive Web Design
-- CSS animations
-- Hover effects
-- Transitions
-- Gradients
-- Shadows
-- Glassmorphism
-- Responsive typography
-- Organizing a multi-page website
-- Writing cleaner and more maintainable CSS
+HTML5 semantic structure &nbsp;·&nbsp; CSS positioning &nbsp;·&nbsp; Flexbox &nbsp;·&nbsp; Responsive Web Design &nbsp;·&nbsp; CSS animations &nbsp;·&nbsp; Hover effects &nbsp;·&nbsp; Transitions &nbsp;·&nbsp; Gradients &nbsp;·&nbsp; Shadows &nbsp;·&nbsp; Glassmorphism &nbsp;·&nbsp; Responsive typography &nbsp;·&nbsp; Multi-page organization &nbsp;·&nbsp; Writing cleaner, maintainable CSS
 
-Most importantly, I learned how to turn a design idea into a real website from scratch. 🚀
+<br>
 
----
+*Most importantly, I learned how to turn a design idea into a real website from scratch.* 🚀
 
-📂 Project Structure
+</td></tr></table>
+</div>
 
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=20,12&height=3&section=header" width="100%" />
+
+<h3 align="center">📂 &nbsp; P R O J E C T &nbsp; S T R U C T U R E &nbsp; 📂</h3>
+
+```
 Book-Shop/
 │
 ├── 📄 index.html
@@ -142,12 +164,13 @@ Book-Shop/
 │   └── ...
 │
 └── 📄 README.md
+```
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=20,12&height=3&section=header" width="100%" />
 
-🚀 Future Improvements
+<h3 align="center">🚀 &nbsp; F U T U R E &nbsp; I M P R O V E M E N T S &nbsp; 🚀</h3>
 
-This project is only the beginning. More features may be added in the future:
+<div align="center">
 
 - [ ] 🛒 Shopping Cart
 - [ ] 🔍 Book Search
@@ -160,31 +183,45 @@ This project is only the beginning. More features may be added in the future:
 - [ ] 🗄️ Backend & Database
 - [ ] 🔐 Real Authentication System
 
----
+</div>
 
-🌱 Project Journey
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=20,12&height=3&section=header" width="100%" />
+
+<h3 align="center">🌱 &nbsp; P R O J E C T &nbsp; J O U R N E Y &nbsp; 🌱</h3>
+
+<div align="center">
 
 This project represents one of my first steps into Front-End Development.
+From writing my first HTML elements to building responsive layouts and experimenting with CSS animations, every part of it was a chance to learn something new.
 
-From writing my first HTML elements to creating responsive layouts and experimenting with CSS animations, every part of this project was an opportunity to learn something new.
+<br>
 
-«Every developer starts somewhere.
-This is where my journey begins. 💚»
+*« Every developer starts somewhere.*
+*This is where my journey begins. 💚 »*
 
----
+</div>
 
-📌 Project Status
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=20,12&height=3&section=header" width="100%" />
 
-🟢 Completed — Version 1.0
+<div align="center">
+
+**📌 Project Status**
+
+![](https://img.shields.io/badge/🟢_Completed-Version_1.0-0C2B1D?style=for-the-badge&logoColor=D4AF37)
 
 The current version focuses mainly on Front-End design and responsive UI.
 
----
+<br>
 
-<div align="center">📚 Made for Book Lovers
+### 📚 Made for Book Lovers
+*Read. Explore. Discover. Repeat.*
 
-Read. Explore. Discover. Repeat.
+<br>
 
-<br>⭐ If you like this project, consider giving the repository a star!
+⭐ If you like this project, consider giving the repository a star!
 
-<br><img src="https://capsule-render.vercel.app/api?type=waving&color=2ECC71&height=100&section=footer" /></div>
+<br>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:D4AF37,50:14432E,100:082015&height=140&section=footer&animation=twinkling" width="100%" />
+
+</div>
