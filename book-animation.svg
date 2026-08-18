@@ -1,0 +1,122 @@
+<svg viewBox="0 0 600 340" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B2E1F"/>
+      <stop offset="100%" stop-color="#082015"/>
+    </linearGradient>
+    <linearGradient id="coverGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14432E"/>
+      <stop offset="100%" stop-color="#0C2B1D"/>
+    </linearGradient>
+    <linearGradient id="pageGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F7F1DE"/>
+      <stop offset="100%" stop-color="#EDE3C4"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="45%" r="60%">
+      <stop offset="0%" stop-color="#D4AF37" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#D4AF37" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="softShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <!-- background -->
+  <rect x="0" y="0" width="600" height="340" rx="18" fill="url(#bgGrad)"/>
+  <rect x="0" y="0" width="600" height="340" rx="18" fill="url(#glow)"/>
+
+  <!-- gold frame -->
+  <rect x="6" y="6" width="588" height="328" rx="14" fill="none" stroke="#D4AF37" stroke-opacity="0.35" stroke-width="1.5"/>
+
+  <!-- book base / spine -->
+  <g filter="url(#softShadow)">
+    <rect x="270" y="150" width="60" height="120" fill="#0A1F15"/>
+
+    <!-- LEFT COVER (opens outward, settles ajar) -->
+    <g transform-origin="300 210">
+      <path d="M300,150 L300,270 L120,270 Q108,270 108,258 L108,162 Q108,150 120,150 Z" fill="url(#coverGrad)" stroke="#D4AF37" stroke-width="1.5" stroke-opacity="0.5">
+        <animateTransform attributeName="transform" type="rotate"
+          values="0 300 210; -68 300 210; -68 300 210; -68 300 210; 0 300 210; 0 300 210"
+          keyTimes="0; 0.18; 0.5; 0.82; 0.95; 1"
+          dur="7s" repeatCount="indefinite"/>
+      </path>
+    </g>
+
+    <!-- RIGHT COVER (opens outward, settles ajar) -->
+    <g transform-origin="300 210">
+      <path d="M300,150 L300,270 L480,270 Q492,270 492,258 L492,162 Q492,150 480,150 Z" fill="url(#coverGrad)" stroke="#D4AF37" stroke-width="1.5" stroke-opacity="0.5">
+        <animateTransform attributeName="transform" type="rotate"
+          values="0 300 210; 68 300 210; 68 300 210; 68 300 210; 0 300 210; 0 300 210"
+          keyTimes="0; 0.18; 0.5; 0.82; 0.95; 1"
+          dur="7s" repeatCount="indefinite"/>
+      </path>
+    </g>
+
+    <!-- LEFT PAGE (static, revealed once book opens) -->
+    <path d="M298,158 L298,262 L140,262 Q130,262 130,252 L130,168 Q130,158 140,158 Z"
+      fill="url(#pageGrad)" opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;1;0;0" keyTimes="0;0.12;0.22;0.75;0.85;0.93;1" dur="7s" repeatCount="indefinite"/>
+    </path>
+    <!-- faint text lines, left page -->
+    <g stroke="#B7A876" stroke-width="2" opacity="0">
+      <animate attributeName="opacity" values="0;0;0.6;0.6;0.6;0;0" keyTimes="0;0.15;0.25;0.75;0.85;0.93;1" dur="7s" repeatCount="indefinite"/>
+      <line x1="145" y1="180" x2="270" y2="180"/>
+      <line x1="145" y1="195" x2="270" y2="195"/>
+      <line x1="145" y1="210" x2="250" y2="210"/>
+      <line x1="145" y1="225" x2="270" y2="225"/>
+      <line x1="145" y1="240" x2="230" y2="240"/>
+    </g>
+
+    <!-- RIGHT PAGE (static base) -->
+    <path d="M302,158 L302,262 L460,262 Q470,262 470,252 L470,168 Q470,158 460,158 Z"
+      fill="url(#pageGrad)" opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;1;0;0" keyTimes="0;0.12;0.22;0.75;0.85;0.93;1" dur="7s" repeatCount="indefinite"/>
+    </path>
+
+    <!-- FLIPPING PAGE (the animated turning leaf, right side) -->
+    <g transform-origin="304 210">
+      <path d="M304,158 L304,262 L460,262 Q470,262 470,252 L470,168 Q470,158 460,158 Z"
+        fill="url(#pageGrad)" stroke="#D8C79A" stroke-width="1" opacity="0">
+        <animate attributeName="opacity"
+          values="0;0;0;1;1;1;1;0;0;0"
+          keyTimes="0;0.22;0.30;0.33;0.40;0.55;0.62;0.66;0.75;1"
+          dur="7s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" type="scale"
+          values="1 1; 1 1; 0.94 1; 0.55 1; 0.15 1; 0.55 1; 0.94 1; 1 1; 1 1; 1 1"
+          keyTimes="0;0.30;0.36;0.42;0.48;0.54;0.60;0.66;0.75;1"
+          additive="sum"
+          dur="7s" repeatCount="indefinite"/>
+      </path>
+    </g>
+
+    <!-- faint text lines, right page -->
+    <g stroke="#B7A876" stroke-width="2" opacity="0">
+      <animate attributeName="opacity" values="0;0;0.6;0.6;0.6;0;0" keyTimes="0;0.15;0.25;0.75;0.85;0.93;1" dur="7s" repeatCount="indefinite"/>
+      <line x1="335" y1="180" x2="455" y2="180"/>
+      <line x1="335" y1="195" x2="455" y2="195"/>
+      <line x1="335" y1="210" x2="435" y2="210"/>
+      <line x1="335" y1="225" x2="455" y2="225"/>
+      <line x1="335" y1="240" x2="415" y2="240"/>
+    </g>
+
+    <!-- spine highlight -->
+    <rect x="292" y="150" width="16" height="120" fill="#0C2B1D"/>
+    <rect x="292" y="150" width="16" height="120" fill="none" stroke="#D4AF37" stroke-opacity="0.4" stroke-width="1"/>
+  </g>
+
+  <!-- sparkle accents -->
+  <g fill="#D4AF37">
+    <circle cx="90" cy="80" r="2">
+      <animate attributeName="opacity" values="0;1;0" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="520" cy="100" r="2.4">
+      <animate attributeName="opacity" values="0;1;0" dur="3.1s" begin="0.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="470" cy="60" r="1.6">
+      <animate attributeName="opacity" values="0;1;0" dur="2.7s" begin="1.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="130" cy="55" r="1.8">
+      <animate attributeName="opacity" values="0;1;0" dur="2.9s" begin="0.3s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</svg>
